@@ -4,7 +4,7 @@ Supply filelocation/filename as a single argument
 It will replace new line with comma
 And output will be in filelocation/filename-out
 e.g. $python newlinemedcomma.py /home/ubuntu/test
-will create a file test-out with output
+will create a file test-out with converted output
 
 '''
 
