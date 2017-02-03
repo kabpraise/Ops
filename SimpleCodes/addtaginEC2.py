@@ -4,7 +4,7 @@ Supply region-name (e.g. ap-southeast-2), vpcid itself and tag value
 (will be set into EnvType tag key) to be set as three arguments
 It will replace new line with comma
 And output will be in filelocation/filename-out
-e.g. $python addtag.py ap-southeast-2 vpc-xxxxxxx TEST
+e.g. $python addtaginEC2.py ap-southeast-2 vpc-xxxxxxx TEST
 will create tag EnvType with value "TEST" for all EC2 instances
 which are in the vpc with vpcid supplied as argument
 
