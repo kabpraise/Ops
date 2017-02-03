@@ -1,3 +1,13 @@
+'''
+Supply region-name (e.g. ap-southeast-2), vpcid itself and tag value 
+(will be set into EnvType tag key) as three arguments
+e.g. $python vaddtag.py ap-southeast-2 vpc-xxxxxxx TEST
+will create tag EnvType with value "TEST" for all volumes associated
+with the instances in that particular vpc with vpcid supplied as argument
+N.B. need to have access credentials (aws_access_key_id and 
+aws_secret_access_key) present in .aws/credentials file.
+'''
+
 #!/usr/bin/python
 import sys
 import boto3
